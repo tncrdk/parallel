@@ -1,4 +1,5 @@
 #pragma once
+#include <atomic> // For safe shared counter
 
 
 namespace parallel {
