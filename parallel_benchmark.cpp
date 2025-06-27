@@ -4,6 +4,9 @@
 #include <chrono>
 #include <atomic> // For safe shared counter
 
+
+namespace parallel {
+
 // Function to check if a number is prime
 bool is_prime(long long n) {
     if (n <= 1) return false;
@@ -71,3 +74,5 @@ void run() {
 
     std::cout << "------------------------\n" << std::endl;
 }
+
+} // namespace parallel
