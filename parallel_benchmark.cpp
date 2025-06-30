@@ -39,7 +39,7 @@ void run() {
     }
     std::cout << "Using " << num_threads << " threads for benchmarking." << std::endl;
 
-    long long max_number_to_check = 200000000; // Adjust as needed for desired duration
+    long long max_number_to_check = 100000000; // Adjust as needed for desired duration
     std::cout << "Finding primes up to " << max_number_to_check << std::endl;
 
     std::atomic<long long> total_primes_found(0);
